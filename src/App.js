@@ -1,5 +1,8 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Counter from './Components/counter';
+import logo from './logo.svg'
+
 
 function App() {
   return (
@@ -15,9 +18,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hi prajjwal
         </a>
+        <div className="Counter">
+        <button> CLick ME</button>
+      </div>
       </header>
+      <div id="root"></div>
+      <Counter/>
+      <button>Click ME</button>
     </div>
   );
 }
