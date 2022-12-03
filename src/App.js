@@ -21,12 +21,12 @@ function App() {
           Hi prajjwal
         </a>
         <div className="Counter">
-        <button> CLick ME</button>
+
       </div>
       </header>
       <div id="root"></div>
       <Counter/>
-      <button>Click ME</button>
+
     </div>
   );
 }
